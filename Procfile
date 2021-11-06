@@ -1,6 +1,5 @@
 web: gunicorn app:app
 
-python==3.9.7
 click==8.0.3
 colorama==0.4.4
 Flask==2.0.2
