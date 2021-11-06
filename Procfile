@@ -1,4 +1,4 @@
-web: gunicorn app:app
+web: gunicorn index:app
 
 click==8.0.3
 colorama==0.4.4
