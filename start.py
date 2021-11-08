@@ -13,6 +13,9 @@ def hello_world():
 def home():
     return render_template("layout.html")
 
+@app.route("/home2")
+def home2():
+    return render_template("home2.html")
 
 
 if __name__ == "__main__":
